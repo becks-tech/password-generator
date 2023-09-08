@@ -136,8 +136,37 @@ button:hover{
     border: 1px solid lightgreen;
 }
 
-@media screen and (min-width: 476px){
+@media screen and (min-width: 1200px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        
+    }
+    .title{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .output-container,.generate-container,.btn-container{
+        max-width: 400px;
+        font-size: 1.5rem;
+        
+    }
+    .generate-container{
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+    }
+    .strength-container p{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+    }
+    button{
+        height: 3rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
     
 }
-
-
