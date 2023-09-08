@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <main class="container">
+        <p class="title">Password Generator</p>
+        <div class="output-container">
+            
+           <p  id="output"></p>
+           <i class="fa fa-clone copy-btn"></i>
+           </div>
+        <div class="generate-container">
+            <label for="slider">Character Length: <span class="char-len"></span></label>
+            <input type="range" id="slider" min="1" max="20" value="10" class="slider">
+
+            <!--
+
+            
+            <label for="upper">
+                <input type="checkbox" id="upper" checked>
+                Include Uppercase Letters
+            </label>
+
+            <label for="lower">
+                <input type="checkbox" id="lower" checked>
+                Include Lowercase Letters
+            </label>
+
+            <label for="numbers">
+                <input type="checkbox" id="numbers" checked>
+                Include Numbers
+            </label>
+
+            <label for="symbols">
+                <input type="checkbox" id="symbols" checked>
+                Include Symbols
+            </label>
+            -->
+
+            <div class="strength-container">
+                <p>Strength:
+                    <span class="strength-status"></span>
+
+                </p>
+                
+            
+                 <span class="strength"></span>
+                 <span class="strength"></span>
+                 <span class="strength"></span>
+                 <span class="strength"></span>
+             </div>
+     
+             <div class="btn-container">
+                 <button>Generate</button>
+             </div>
+        </div>
+
+        
+        
+    </main>
+</body>
+</html>
